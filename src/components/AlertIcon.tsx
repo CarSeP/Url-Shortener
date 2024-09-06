@@ -27,7 +27,7 @@ export default function AlertIcon({children, onHandleMessage} : any) {
       icon={<Icon />}
       className="rounded-none border-l-4 border-[#2ec946] bg-gray-300 font-medium text-[#2ec946] py-2"
       action={
-        <div className="flex items-center">
+        <div className="hidden items-center xs:flex">
           <CopyButton url={children} />
           <CloseButton onHandleMessage={onHandleMessage}/>
         </div>

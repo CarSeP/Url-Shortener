@@ -55,7 +55,7 @@ export default function Home() {
       </div>
 
       {message &&
-          <div className="w-[30rem] mx-auto mt-4">
+          <div className="max-w-[30rem] mx-auto mt-4">
             <AlertIcon onHandleMessage={onHandleMessage}>{message}</AlertIcon>
           </div>
       }
